@@ -76,7 +76,7 @@ benchmark: all
 	mkdir -p plots
 	python benchmark.py \
 	    --csv     returns.csv \
-	    --ns      50,100,200,300,400 \
+	    --ns      50,100,150,200,250,300,350,400,500,750,1000,1250 \
 	    --cpu_bin ./$(CPU_BIN) \
 	    --gpu_bin ./$(GPU_BIN) \
 	    --out_dir plots

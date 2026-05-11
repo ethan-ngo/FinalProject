@@ -1,6 +1,6 @@
-# GPU Portfolio Optimisation
+# GPU Portfolio Optimization
 
-GPU-accelerated mean-variance portfolio optimisation using custom CUDA kernels and cuBLAS. Computes a covariance matrix and runs gradient descent on the GPU, then compares performance against a CPU baseline.
+GPU-accelerated mean-variance portfolio optimization using custom CUDA kernels and cuBLAS. Computes a covariance matrix and runs gradient descent on the GPU, then compares performance against a CPU baseline.
 
 ---
 
@@ -34,7 +34,7 @@ make gpu       # GPU binary only
 ```bash
 make benchmark
 ```
-Runs both binaries across a range of portfolio sizes (`N = 50, 100, 200, 300, 400`) and saves plots to `plots/`.
+Runs both binaries across a range of portfolio sizes and saves plots to `plots/`.
 
 ---
 
