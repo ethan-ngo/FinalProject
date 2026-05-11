@@ -81,5 +81,5 @@ pip install yfinance pandas
 | `cpu_baseline.cpp` / `cpu_baseline_inline.h` | CPU reference implementation for benchmarking |
 | `benchmark.py` | Benchmark sweep script — calls both binaries across portfolio sizes and generates plots |
 | `fetch_data.py` | Downloads historical return data from Yahoo Finance |
-| `fetch_tickers.py` | Scrapes a variety of sources for ticker symbols. [WIP] |
+| `get_tickers.py` | Scrapes a variety of sources for ticker symbols. [WIP] |
 | `Makefile` | Build system |
